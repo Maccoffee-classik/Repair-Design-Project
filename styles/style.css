@@ -1,0 +1,84 @@
+/* Общие стили */
+* {
+   
+    box-sizing: border-box
+  }
+body, button  {
+    
+    font-family: "NunitoSans", sans-serif;
+   
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
+
+.button {
+    cursor: pointer;
+    border: none;    
+    box-shadow: 0 5px 15px 0 rgba(227, 184, 115, 0.3);
+    background: #e3b873;
+    text-align: center;
+    color: #fff;
+    border-radius: 2px;
+    padding: 13px 33px; 
+    font-weight: 400;
+    text-transform: uppercase;
+    font-style: italic;
+    font-size: 11px;
+
+
+}
+
+.button_nav {
+    margin-left: 45px;
+}
+
+.navbar-block {
+    list-style: none;
+    display: flex;
+}
+.navbar-block__item {
+    margin-right: 47px;
+}
+.navbar-block__item a {
+    color:white;
+    font-weight: 400;
+    font-size: 11px;
+
+
+}
+.header {
+    background: #131313;
+    
+    
+    padding: 37px 0;
+}
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    font-weight: 400;
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #e3b873;
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0px 92px;
+
+}
+.contact__phone {
+    font-weight: 400;
+    font-size: 11px;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    text-align: right;
+    color: #e3b873;
+}
