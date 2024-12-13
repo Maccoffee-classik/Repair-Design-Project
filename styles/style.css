@@ -285,7 +285,7 @@ h1 .title {
 }
 
 .video {
-  background-image: url("/img/control-image.png");
+  background-image: url("../img/control-image.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
