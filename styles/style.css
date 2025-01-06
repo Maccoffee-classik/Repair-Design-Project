@@ -270,6 +270,32 @@ h1.title {
   display: none;
 }
 
+
+.dots-container {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.3);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.dot.active {
+  background-color: rgba(227, 184, 115, 1);
+}
+
+
+
+
+
+
 .online-control {
   text-align: center;
   margin-top: -298px;
@@ -1374,6 +1400,11 @@ h1.title {
 
 
 }
+
+
+
+
+
 
 
 @media screen and (max-width: 414px) {
